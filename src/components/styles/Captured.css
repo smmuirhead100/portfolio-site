@@ -1,0 +1,11 @@
+.wrapper--captured {
+    width: 1680px;
+    height: 1035px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+span {
+    text-align: center;
+}

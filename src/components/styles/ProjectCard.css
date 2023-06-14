@@ -1,0 +1,89 @@
+.wrapper--projectcard{
+    font-family: 'Work Sans';
+    width: 1500px;
+    height: 650px;
+    display: grid;
+    grid-auto-flow: dense;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+}
+
+.left--projectcard {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.left--projectcard img {
+    width: 100%;
+}
+
+.right--projectcard {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.right--projectcard .content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding-bottom: 2rem;
+}
+.right--projectcard .title{
+    font-size: 16px;
+    color: #E3E4E6;
+    font-weight: 800;
+}
+
+
+.right--projectcard .description {
+    font-size: 32;
+    font-weight: 300;
+    color: rgb(227, 228, 230, 55%);
+}
+
+.right--projectcard .description span {
+    font-weight: 800;
+    color: #E3E4E6;
+}
+
+.right--projectcard .category {
+    font-size: 18px;
+    font-weight: 300;
+    color: #E3E4E6;
+}
+
+.right--projectcard button {
+    font-size: 16px;
+    font-weight: 800;
+    color: #E3E4E6;
+    border: solid;
+    border-color: #E3E4E6;
+    background-color: transparent;
+    display: flex;
+    height: 40px;
+    width: 200px;
+    border-radius: 100px;
+    justify-content: space-evenly;
+    gap: 10px;
+    align-items: center;
+    transition: 1s;
+}
+
+.right--projectcard button img {
+    position: relative;
+    width: 8px;
+}
+
+
+.right--projectcard button:hover {
+    cursor: pointer;
+    background-image: linear-gradient(to right, red , yellow);
+    transition: background-image 1.5s linear;
+}
+
+.right--projectcard a {
+    text-decoration: none;
+    width: fit-content;
+}

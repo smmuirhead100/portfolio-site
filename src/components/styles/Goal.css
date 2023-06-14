@@ -1,0 +1,7 @@
+.wrapper--goal {
+    width: 1680px;
+    height: 635px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

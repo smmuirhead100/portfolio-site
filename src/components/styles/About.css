@@ -1,0 +1,24 @@
+.about--wrapper {
+    height: 1425px;
+    width: 1680px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.about--wrapper div{
+    text-align: center;
+    font-size: 32px;
+    padding-left: 12rem;
+    padding-right: 12rem;
+}
+
+HomePage {
+    animation: fadeIn 5s
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }

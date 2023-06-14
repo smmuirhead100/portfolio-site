@@ -1,0 +1,10 @@
+.icons--wrapper {
+    display: flex;
+    padding: 2rem;
+    gap: 3rem;
+}
+
+.icons--wrapper img {
+    position: relative;
+    width: 40px;
+}
